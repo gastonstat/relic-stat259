@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Stat 259
+tagline:          'UCB - Stat 259'
+description:      'Reproducible and Collaborative Statistical Data Science.'
+url:              http://gastonsanchez.com/stat259
+baseurl:          http://gastonsanchez.com/stat259
+
+author:
+  name:           'Gaston Sanchez'
+  url:            http://gastonsanchez.com
+
+paginate:         5
+
+# Custom vars
+version:          Spring 2016
+
+github:
+  repo:           https://github.com/gastonstat/stat259

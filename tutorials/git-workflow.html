@@ -1,0 +1,95 @@
+<p>This tutorial presents the basic workflow that you will be doing most of the times with Git</p>
+<h3 id="git-status">Git Status</h3>
+<p>Go to your <code>toy_project</code> directory. It should have two files.</p>
+<p>The next command you have to learn is <code>git status</code>. This command reports the difference between the working directory, the staging index, and the repository.</p>
+<pre><code>git status</code></pre>
+<p>You should see a message like this:</p>
+<pre><code># On branch master
+nothing to commit (working directory clean)</code></pre>
+<p>This means that the working directory exactly matches what is in the repository</p>
+<h3 id="adding-more-content">Adding more content</h3>
+<p>Now let's add more files:</p>
+<ul>
+<li>create two new files <code>file3.txt</code> and <code>file4.txt</code></li>
+<li>check the <code>git status</code></li>
+</ul>
+<p>Add just the file <code>file3.txt</code>, and then check the status</p>
+<pre><code>git add file3.txt
+git status</code></pre>
+<p>At this point, the status shows two parts: the <strong>staged</strong> changes (ready to be commited), and the <strong>untracked</strong> files (which are not being tracked)</p>
+<p>Let's commit the staged changes with a message, and then see the status</p>
+<pre><code>git commit -m &quot;add file3 to the project&quot;
+git status</code></pre>
+<p>You can also look at the commits log</p>
+<pre><code>git log</code></pre>
+<p><strong>Your turn:</strong> Add the fourth file, check the status, commit the changes, check status again, and see the log.</p>
+<p>Remember the basic workflow: you make changes, add the changes, and commit the changes with a message. Adding <code>git status</code> to the workflow completes the process:</p>
+<ul>
+<li>make changes</li>
+<li>check status</li>
+<li>add the changes</li>
+<li>check status</li>
+<li>commit the changes with a message</li>
+</ul>
+<hr />
+<h3 id="making-changes-to-files">Making Changes to Files</h3>
+<p>We've seen how to add and commit new files. However, in practice is very common to make changes to existing files, or even deleting some files. It is important to understand how Git tracks these types of modifications.</p>
+<p>In this part we are going to edit some files and see how Git works with those changes.</p>
+<p>So far we have four files in our <code>toy_project</code>: <code>file1.txt</code>, ..., <code>file4.txt</code>. Let's modify the contents of <code>file1.txt</code> (e.g. add a quote). Once you change the file, let's check the status:</p>
+<pre><code>git status</code></pre>
+<p>As you can tell, Git tells you that <code>file1.txt</code> has been modified. Add the changes and commit them:</p>
+<pre><code>git add file1.txt
+git commit -m &#39;add quote to file1.txt&#39;</code></pre>
+<p>Modify <code>file2.txt</code> by adding a telephone number, and add the change (but don't commit it yet)</p>
+<pre><code>git add file2.txt</code></pre>
+<p>Before commiting the previous change, modify <code>file3.txt</code> as well by adding the name of one of your favorite movies. If you do <code>git status</code> you will see that the modified <code>file2.txt</code> is in the staged directory while the modified <code>file3.txt</code> is just in the working directory.</p>
+<p>Commit the change of the second file (not <code>file3.txt</code>).</p>
+<pre><code>git commit -m &#39;added a telephone number in file2.txt&#39;
+git status</code></pre>
+<p>Finally, let's add and commit the modified <code>file3.txt</code></p>
+<pre><code>git add file3.txt
+git commit -m &#39;added favorite movie to file3.txt&#39;</code></pre>
+<h3 id="see-what-changes-have-been-made">See what changes have been made</h3>
+<p>Let's make more edits to <code>file1.txt</code>, say, adding the city where you were born. If you do <code>git status</code>, you know that Git will report that <code>file1.txt</code> has been modified.</p>
+<p>In order to see the difference between what's in the staging index versus what is in the working directory, you can use <code>git diff</code></p>
+<pre><code>git diff</code></pre>
+<p>Take some time to look at the output and understand what's going on.</p>
+<p>Make some changes to <code>file2.txt</code>, for instance, adding the name of your major.</p>
+<pre><code>git diff</code></pre>
+<p>If you want to get the changes of just the first file, then type</p>
+<pre><code>git diff file1.txt</code></pre>
+<h3 id="see-the-changes-in-the-staging-index">See the changes in the staging index</h3>
+<p>Let's add <code>file1.txt</code> to the staging index and see the differences again:</p>
+<pre><code>git add file1.txt
+git diff</code></pre>
+<p>Notice that <code>git diff</code> only shows the changes in <code>file2.txt</code></p>
+<p>How do we see the modifications in <code>file1.txt</code>? Simple use the option <code>--staged</code></p>
+<pre><code>git diff --staged</code></pre>
+<p>Now add <code>file2.txt</code></p>
+<pre><code>git add file2.txt
+git status
+git diff</code></pre>
+<h3 id="deleting-files-in-git">Deleting Files in Git</h3>
+<p>Create two more files; these will be deleted after being added and committed to the repository.</p>
+<pre><code>touch dummy1.txt dummy2.txt
+git status
+git add .
+git commit -m &#39;adding dummy files&#39;</code></pre>
+<p>Let's look at the naive way to delete a file.</p>
+<pre><code>rm dummy1.txt
+git status</code></pre>
+<p>Now try adding the deleted file:</p>
+<pre><code>git add dummy1.txt</code></pre>
+<p>To actually add the changes to the staging area we need to:</p>
+<pre><code>git rm dummy1.txt
+git status</code></pre>
+<p>Now we can commit:</p>
+<pre><code>git commit -m &#39;deleted dummy1.txt&#39;
+git status</code></pre>
+<p>The other way to delete is using <code>git rm</code> which will delete the file and record the changes in the staging index:</p>
+<pre><code>git rm dummy2.txt
+git status</code></pre>
+<p>After that you can commit:</p>
+<pre><code>git commit -m &#39;delete dummy2.txt&#39;</code></pre>
+<h3 id="moving-and-renaming-files-in-git">Moving and Renaming Files in Git</h3>
+<pre><code>git mv</code></pre>

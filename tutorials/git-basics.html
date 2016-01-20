@@ -1,0 +1,104 @@
+<p>This tutorial aims to get you started with Git</p>
+<h3 id="initializing-git">Initializing Git</h3>
+<p>The get-started command is <code>git init</code></p>
+<p>Go to your <code>Documents</code> directory, create a new directory <code>toy_project</code>, and initialize a git repository in that directory:</p>
+<pre><code>cd ~/Documents
+mkdir toy_project
+cd toy_project
+git init</code></pre>
+<p>You should be able to see a similar message like this</p>
+<pre><code>Initialized empty Git repository in /Users/gaston/Documents/toy_project/.git/</code></pre>
+<p>Git creates a <code>.git</code> directory inside the project's folder. This is where Git will do all of its storing and tracking (i.e. this is like Git workspace). Make sure <code>.git</code> exists:</p>
+<pre><code># checking hidden files
+ls -la</code></pre>
+<h3 id="where-git-stores-its-files">Where Git stores its files</h3>
+<p>Let's take a peek at the directory <code>.git</code></p>
+<pre><code>cd .git
+ls -la</code></pre>
+<p>All the contents in <code>.git</code> are managed by Git, so don't mess around any of these files. Everything that Git does is stored in this directory.</p>
+<h3 id="adding-some-files">Adding some files</h3>
+<ul>
+<li>Go to the <code>toy_project</code> directory</li>
+<li>Create a file <code>file1.txt</code> with a couple of lines of text</li>
+</ul>
+<p>The first thing we'll do is to tell Git to add all the changes that have been made to this project:</p>
+<pre><code># add every change in this directory
+git add .</code></pre>
+<p>Then, we'll commit the changes: in other words, tell Git to put the changes in permanent memory (i.e. in the repository). This is done via <code>git commit</code> and some message with the <code>-m</code> option:</p>
+<pre><code># commit the change
+git commit -m &quot;initial commit&quot;</code></pre>
+<p>Basic workflow:</p>
+<ul>
+<li>make changes</li>
+<li>add the changes</li>
+<li>commit the changes with a message</li>
+</ul>
+<h3 id="adding-more-files">Adding more files</h3>
+<ul>
+<li>Create a file <code>file2.txt</code> with more content</li>
+<li>Add the changes</li>
+<li>Commit the changes with a message</li>
+</ul>
+<h3 id="writing-commit-messages">Writing commit messages</h3>
+<p>How to write commit messages? You want to have a commit message that describes the changes that you're making in that commit set:</p>
+<ul>
+<li>added file to project</li>
+<li>added data set file</li>
+<li>fixing a bug</li>
+</ul>
+<p>The reason to add a message is to label what we were doing in a given change so when we come back and look at it later, we can just look at the commit message and know what's inside. Some best practices are:</p>
+<ul>
+<li>Start with a short single-line summary (less than 50 characters)</li>
+<li>Optionally, we can follow that by a blank line and then a more complete description</li>
+<li>For tiny changes, a single-line summary is enough</li>
+<li>For major changes, a more complete description is needed</li>
+<li>For multiline commit messages, use a text editor</li>
+<li>Choose a label of what the commit does</li>
+<li>Bad message: &quot;fix a typo&quot;</li>
+<li>Good message: &quot;this fixes a typo in title of file1.txt&quot;</li>
+<li>Avoid vague messages</li>
+</ul>
+<p>It's very important to have well labeled commits so that if someone makes a commit and then your friend is thinking about incorporating that commit into her project, she can look at it, see what that commit is, and decide to merge it into her project so that it becomes part for her project as well.</p>
+<h3 id="looking-at-previous-commit-messages">Looking at Previous Commit Messages</h3>
+<p>Now that we've made our first commits, let's take a look at where those commit messages with <code>git log</code>. This will show the log of commits that have taken place so far:</p>
+<pre><code># viewing the commit log
+git log</code></pre>
+<p>Each commit has:</p>
+<ul>
+<li>a unique ID known as the <strong>SAH1</strong> number</li>
+<li>the <strong>Author</strong> of the commit (taken from my global configuration)</li>
+<li>the <strong>Date</strong> of the commit</li>
+<li>the message.</li>
+</ul>
+<p>The Author name let's known who made a commit, that's why that was the very first configuration.</p>
+<pre><code># watching one commit
+git log -n 1
+
+# watching two commits
+git log -n 2
+
+# watching five commits
+git log -n 5</code></pre>
+<pre><code># abreviated logs
+git log --oneline
+
+# everything since a date
+git log --since=2016-01-01
+
+# everything until a date
+git log --until=2016-01-02
+
+# everything since-and-until a date
+# (to see commits between a range)
+git log --since=2016-01-01 --until=2016-01-02
+
+# from an author
+git log --author=&quot;gaston&quot;
+
+# from another author
+git log --author=&quot;jessica&quot;
+
+# regular expressions
+git log --grep=&quot;init&quot;
+git log --grep=&quot;R script&quot;
+git log --grep=&quot;latex&quot;</code></pre>
