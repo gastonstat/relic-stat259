@@ -45,13 +45,7 @@ title: "Reproducibility"
 	Lab
 </h4>
 
-Each student will do a 6-min talk about a source of data:
-
-- Overall description of source
-- Overall description of the data set
-- One research question
-- What type of format?
-- Potential issues of messiness
-- Main limitations of the data
-- What other sources of data could be used?
+- Checklist of required software tools
+- Overall Recap (e.g. command line)
+- Round table discussion about the course (with David Ackerly and Philip Stark)
 
