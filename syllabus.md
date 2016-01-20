@@ -13,7 +13,7 @@ title: Syllabus
 
 - Gaston Sanchez
 - [gastonsanchez.com](http://gastonsanchez.com)
-- Office: 341 Evans Hall
+- Office: 309 Evans Hall
 - Office Hours: By appointment
 
 <p class="message">
