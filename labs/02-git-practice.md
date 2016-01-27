@@ -14,6 +14,7 @@ Lab 2
 - Initialize it with a Git repository
 - Add some files
 - Apply `git add`, `git commit`, `git status`, `git log`
+- See differences with `git diff`
 - Undoing changes
 
 

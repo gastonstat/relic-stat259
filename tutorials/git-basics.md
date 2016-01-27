@@ -11,15 +11,15 @@ This tutorial aims to get you started with Git
 The get-started command is `git init`
 
 Go to your `Documents` directory, create a new directory `toy_project`, and initialize a git repository in that directory:
-```
+```{.bash}
 cd ~/Documents
 mkdir toy_project
 cd toy_project
 git init
 ```
 
-You should be able to see a similar message like this
-```
+You should be able to see a similar message like this:
+```{.bash}
 Initialized empty Git repository in /Users/gaston/Documents/toy_project/.git/
 ```
 Git creates a `.git` directory inside the project's folder. This is where Git will do all of its storing and tracking (i.e. this is like Git workspace). Make sure `.git` exists:
