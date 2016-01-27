@@ -11,7 +11,7 @@ This tutorial aims to get you started with Git
 The get-started command is `git init`
 
 Go to your `Documents` directory, create a new directory `toy_project`, and initialize a git repository in that directory:
-```{.bash}
+```bash
 cd ~/Documents
 mkdir toy_project
 cd toy_project
@@ -23,7 +23,7 @@ You should be able to see a similar message like this:
 Initialized empty Git repository in /Users/gaston/Documents/toy_project/.git/
 ```
 Git creates a `.git` directory inside the project's folder. This is where Git will do all of its storing and tracking (i.e. this is like Git workspace). Make sure `.git` exists:
-```{.bash}
+```bash
 # checking hidden files
 ls -la
 ```
@@ -31,7 +31,7 @@ ls -la
 ### Where Git stores its files
 
 Let's take a peek at the directory `.git`
-```{.bash}
+```bash
 cd .git
 ls -la
 ```
@@ -44,13 +44,13 @@ All the contents in `.git` are managed by Git, so don't mess around any of these
 - Create a file `file1.txt` with a couple of lines of text
 
 The first thing we'll do is to tell Git to add all the changes that have been made to this project:
-```{.bash}
+```bash
 # add every change in this directory
 git add .
 ```
 
 Then, we'll commit the changes: in other words, tell Git to put the changes in permanent memory (i.e. in the repository). This is done via `git commit` and some message with the `-m` option:
-```{.bash}
+```bash
 # commit the change
 git commit -m "initial commit"
 ```
@@ -95,7 +95,7 @@ It's very important to have well labeled commits so that if someone makes a comm
 ### Looking at Previous Commit Messages
 
 Now that we've made our first commits, let's take a look at those commit messages with `git log`. This will show the log of commits that have taken place so far:
-```{.bash}
+```bash
 # viewing the commit log
 git log
 ```
@@ -110,7 +110,7 @@ Each commit has:
 The Author name let us know who made a commit, that's why the configuration (in `gitconfig`) was so important.
 
 
-```{.bash}
+```bash
 # watching one commit
 git log -n 1
 
@@ -122,7 +122,7 @@ git log -n 5
 ```
 
 Here are some other options to be used with `git log`:
-```{.bash}
+```bash
 # abreviated logs
 git log --oneline
 
