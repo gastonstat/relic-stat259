@@ -54,8 +54,8 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Feb 01</td>
-      <td><b>Git Branching and Remotes</b><br>
-        Working with branches and remote repositories</td>
+      <td><b>Git Branching</b><br>
+        Working with branches</td>
       <td>
         <a href="04-git-branching"><i class="fa fa-folder"></i></a>
         &nbsp;
@@ -65,18 +65,17 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Feb 03</td>
-      <td><b>Intro to Python</b><br>
-        Getting Started with Python</td>
+      <td><b>Git Remotes</b><br>
+        Working with remote repositories</td>
       <td>
-        <i class="fa fa-folder"></i>
+        <a href="05-git-remotes"><i class="fa fa-folder"></i></a>
         &nbsp;
-        <i class="fa fa-picture-o"></i>
-        &nbsp;
+        <a href="https://docs.google.com/presentation/d/1HY4ulHzPNsyto-uY_BpjM5XPR9gA55-Q37IIsTrZGQA/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
       </td>
     </tr>
     <tr>
       <td>Feb 08</td>
-      <td><b>More Python</b><br>
+      <td><b>Intro to Python</b><br>
         Control flows, classes, and data formats</td>
       <td>
         <i class="fa fa-folder"></i>
