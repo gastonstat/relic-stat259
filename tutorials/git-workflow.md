@@ -98,6 +98,7 @@ git add file3.txt
 git commit -m 'added favorite movie to file3.txt'
 ```
 
+-----
 
 ### See what changes have been made
 
@@ -129,7 +130,7 @@ git diff
 ```
 Notice that `git diff` only shows the changes in `file2.txt`
 
-How do we see the modifications in `file1.txt`? Simple use the option `--staged`
+How do we see the modifications in `file1.txt`? Simply use the option `--staged`
 ```bash
 git diff --staged
 ```
@@ -141,6 +142,21 @@ git status
 git diff
 ```
 
+
+### See the changes in previous versions
+
+If we want to see changes made at different versions, we can use `git diff` again, but with the notation `HEAD~1`, `HEAD~2`, and so on, to refer to old commits. For example, to compare changes in the most recent commit use:
+```bash
+git diff HEAD~1 file1.txt
+```
+
+If you want to go back further in time, just change the number next to the HEAD:
+```bash
+git diff HEAD~5 file1.txt
+```
+this will compare changes made five commits ago.
+
+-----
 
 ### Deleting Files in Git
 
@@ -184,3 +200,20 @@ After that you can commit:
 ```bash
 git commit -m 'delete dummy2.txt'
 ```
+
+-----
+
+### Undoing Changes
+
+Git provides various ways to undo changes. Depending on the type of change, the location of the changes, and the history of changes, we have the following options:
+
+- undoing changes in the working directory
+- undoing changes in the staging area
+- amending a commit
+- retrieving old versions
+- reverting a commit
+- reset many commits:
+	- soft reset
+	- mixed reset
+	- hard reset
+
