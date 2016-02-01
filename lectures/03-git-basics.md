@@ -60,7 +60,11 @@ title: "Git Basics"
 	<span class="fa fa-flask fa-lg main-list-item-icon"></span>
 	Lab
 </h4>
-<a href="https://github.com/gastonstat/stat259/tree/gh-pages/tutorials/command-line.md" target="_blank">Git Practice</a>
+
+<ul>
+	<li><a href="https://github.com/gastonstat/stat259/blob/gh-pages/tutorials/git-basics.md" target="_blank">Git Basics</a></li>
+	<li><a href="https://github.com/gastonstat/stat259/blob/gh-pages/tutorials/git-workflow.md" target="_blank">Git Workflow</a></li>
+</ul>
 
 ------
 
