@@ -21,7 +21,6 @@ title: "Git Branching"
 
 - Create branches of our code to try new ideas
 - How to merge those changes into the project
-- How to use our remote repository to enable collaboration
 
 
 <h4>
@@ -29,8 +28,8 @@ title: "Git Branching"
 	Reading
 </h4>
 
-- [Pro Git - Chapter 3: Git Branching](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control), sections 3.1 to 3.4
-- [LVC Git - Part 2: Branching and Merging](http://www.git-tower.com/learn/git/ebook/command-line/remote-repositories/introduction#start), sections 2.1 to 2.6
+- [Pro Git - Chapter 3: Git Branching](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell), sections 3.1 to 3.4
+- [LVC Git - Part 2: Branching and Merging](https://www.git-tower.com/learn/git/ebook/command-line/branching-merging/branching-can-change-your-life#start)
 
 <h4>
 	<span class="fa fa-code fa-lg main-list-item-icon"></span>
@@ -44,7 +43,7 @@ title: "Git Branching"
 	<span class="fa fa-flask fa-lg main-list-item-icon"></span>
 	Lab
 </h4>
-<a href="https://github.com/gastonstat/stat259/tree/gh-pages/tutorials/command-line.md" target="_blank">Git Practice</a>
+<a href="https://github.com/gastonstat/stat259/blob/gh-pages/tutorials/git-branches.md" target="_blank">Git Practice: Branches</a>
 
 ------
 
