@@ -27,7 +27,7 @@ title: "Git Remotes"
 	Reading
 </h4>
 
-- [Pro Git - Chapter 3: Git Branching](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control), sections 3.1 to 3.4
+- [Pro Git - Chapter 2: Working with Remotes](https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes), sections 2.5
 - [LVC Git - Part 3: About Remote Repositories](http://www.git-tower.com/learn/git/ebook/command-line/remote-repositories/introduction#start), sections 2.1 to 2.6
 
 <h4>
@@ -42,7 +42,7 @@ title: "Git Remotes"
 	<span class="fa fa-flask fa-lg main-list-item-icon"></span>
 	Lab
 </h4>
-<a href="https://github.com/gastonstat/stat259/blob/gh-pages/tutorials/git-branching.md" target="_blank">Git Practice: branching</a>
+<a href="" target="_blank">TBD</a>
 
 ------
 
