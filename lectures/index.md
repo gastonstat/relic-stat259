@@ -89,7 +89,7 @@ Tentative calendar, Spring 2016
       <td>
         <a href="07-osf"><i class="fa fa-folder"></i></a>
         &nbsp;
-        <a href="https://www.youtube.com/watch?v=NqC2uagJZpw" target="_blank"><i class="fa fa-picture-o"></i></a>
+        <a href="https://www.youtube.com/watch?v=NqC2uagJZpw" target="_blank"><i class="fa fa-youtube-play"></i></a>
         &nbsp;
      </td>
     </tr>
