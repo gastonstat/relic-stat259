@@ -33,9 +33,11 @@ title: "Introduction"
 	Reading
 </h4>
 
+Rading assignments for next lecture:
+
 - [Introduction](http://ropensci.github.io/reproducibility-guide/sections/introduction/) from the _Reproducibility Guide_ (by [rOpenSci](https://ropensci.org/about/)) 
-- [Five Concrete Reasons Your Students Should Be Learning to Analyze Data in the Reproducible Paradigm](http://chance.amstat.org/2014/09/reproducible-paradigm/) (by Bray, Çetinkaya-Rundel, & Stangl, 2014)
-- [Why scientific programming does not compute?](http://www.nature.com/news/2010/101013/pdf/467775a.pdf) (by Zeeya Merali, 2010)
+- [Five Concrete Reasons Your Students Should Be Learning to Analyze Data in the Reproducible Paradigm](http://chance.amstat.org/2014/09/reproducible-paradigm/) (by Bray, Çetinkaya-Rundel, & Stangl)
+- [Why scientific programming does not compute?](http://www.nature.com/news/2010/101013/pdf/467775a.pdf) (by Zeeya Merali)
 - [Reproducible Research: a Dissenting Opinion](http://cogprints.org/8675/1/ReproducibleResearch.pdf) (by Chris Drummond)
 
 <h4>
