@@ -4,7 +4,7 @@ title: "Introduction"
 ---
 
 <p class="message">
-  Course Introduction
+  Course Introduction: How not to do a data analysis project
 </p>
 
 

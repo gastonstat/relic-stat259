@@ -4,7 +4,7 @@ title: "Open Science Framework"
 ---
 
 <p class="message">
-  OSF
+  Cloud-based management for your projects
 </p>
 
 <h4>

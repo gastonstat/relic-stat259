@@ -4,7 +4,7 @@ title: "Reproducibility"
 ---
 
 <p class="message">
-  Reproducibility
+  Reproducibility: What does it mean? Should you care?
 </p>
 
 

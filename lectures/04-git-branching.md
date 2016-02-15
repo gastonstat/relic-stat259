@@ -4,7 +4,7 @@ title: "Git Branching"
 ---
 
 <p class="message">
-  Git: Branching
+  Git: Working with Branches
 </p>
 
 <h4>

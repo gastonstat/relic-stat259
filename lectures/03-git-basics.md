@@ -4,7 +4,7 @@ title: "Git Basics"
 ---
 
 <p class="message">
-  Git: Distributed Version Control
+  Basics of Version Control with Git
 </p>
 
 <h4>
