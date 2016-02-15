@@ -77,7 +77,7 @@ Tentative calendar, Spring 2016
       <td><b>Git Branching and Remotes</b><br>
         Working with branches and remote repositories</td>
       <td>
-        <a href="05-git-branching"><i class="fa fa-folder"></i></a>
+        <a href="06-git-branching"><i class="fa fa-folder"></i></a>
         &nbsp;
         <a href="https://docs.google.com/presentation/d/10bODT4eUDe-pGhEUSNozRpxVkrC4GsKSHZpbsRJx7y0/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
       </td>
