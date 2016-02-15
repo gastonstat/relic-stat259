@@ -26,7 +26,7 @@ Tentative calendar, Spring 2016
       <td>
         <a href="01-introduction"><i class="fa fa-folder"></i></a>
         &nbsp;
-        <a href="https://docs.google.com/presentation/d/1EGeyT9IUthumdfyDeXqrcze7TqFoEAH3QOgbRjQZ1Gc/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
+        <a href="https://docs.google.com/presentation/d/1kG3nnlPuL8D78knTKT33XmWL47zDigILmZqCAnjUSgQ/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
       </td>
     </tr>
     <tr>
@@ -41,45 +41,45 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Jan 27</td>
+      <td><b>Shell Basics</b><br>
+        Unix Shell and the Filesystem</td>
+      <td>
+        <a href="03-shell-basics"><i class="fa fa-folder"></i></a>
+        &nbsp;
+        <a href="https://docs.google.com/presentation/d/1QKFuvlVwJdQ2cUCOLS6Bx0ADxx80gyTrU0GL7PzKZV8/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>Feb 01</td>
+      <td><b>More Shell</b><br>
+        Redirection, pipes, filters, grep</td>
+      <td>
+        <a href="04-more-shell"><i class="fa fa-folder"></i></a>
+        &nbsp;
+        <a href="https://docs.google.com/presentation/d/171UrtqnNtSMjVfRdfheLAmgogQQXMbIZjc2HaSO_oWg/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>Feb 03</td>
       <td><b>Git Basics</b><br>
         Introduction to Version Control with Git</td>
       <td>
-        <a href="03-git-basics"><i class="fa fa-folder"></i></a>
+        <a href="05-git-basics"><i class="fa fa-folder"></i></a>
         &nbsp;
         <a href="https://docs.google.com/presentation/d/1qJ4LhB2WQzDqVdWLvFF69wsQRbbPJeY2PxldZPn9PAU/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
         &nbsp;
       </td>
     </tr>
     <tr>
-      <td>Feb 01</td>
-      <td><b>Git Branching</b><br>
-        Working with branches</td>
+      <td>Feb 08</td>
+      <td><b>Git Branching and Remotes</b><br>
+        Working with branches and remote repositories</td>
       <td>
-        <a href="04-git-branching"><i class="fa fa-folder"></i></a>
+        <a href="05-git-branching"><i class="fa fa-folder"></i></a>
         &nbsp;
         <a href="https://docs.google.com/presentation/d/10bODT4eUDe-pGhEUSNozRpxVkrC4GsKSHZpbsRJx7y0/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
-        &nbsp;
-      </td>
-    </tr>
-    <tr>
-      <td>Feb 03</td>
-      <td><b>Git Remotes</b><br>
-        Working with remote repositories</td>
-      <td>
-        <a href="05-git-remotes"><i class="fa fa-folder"></i></a>
-        &nbsp;
-        <a href="https://docs.google.com/presentation/d/1HY4ulHzPNsyto-uY_BpjM5XPR9gA55-Q37IIsTrZGQA/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
-      </td>
-    </tr>
-    <tr>
-      <td>Feb 08</td>
-      <td><b>Intro to Python</b><br>
-        Control flows, classes, and data formats</td>
-      <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
-        &nbsp;
       </td>
     </tr>
     <tr>
@@ -87,7 +87,7 @@ Tentative calendar, Spring 2016
       <td><b>Open Science Framework</b><br>
         Cloud-based management for your projects</td>
       <td>
-        <a href="osf"><i class="fa fa-folder"></i></a>
+        <a href="07-osf"><i class="fa fa-folder"></i></a>
         &nbsp;
         <a href="https://www.youtube.com/watch?v=NqC2uagJZpw" target="_blank"><i class="fa fa-picture-o"></i></a>
         &nbsp;
@@ -101,6 +101,17 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Feb 17</td>
+      <td><b>Intro to Python</b><br>
+        Control flows, classes, and data formats</td>
+      <td>
+        <i class="fa fa-folder"></i>
+        &nbsp;
+        <i class="fa fa-picture-o"></i>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>Feb 22</td>
       <td><b>Intro to Numpy</b><br>
         Numpy Arrays</td>
       <td>
