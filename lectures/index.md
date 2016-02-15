@@ -37,8 +37,6 @@ Tentative calendar, Spring 2016
         <a href="02-reproducibility"><i class="fa fa-folder"></i></a>
         &nbsp;
         <a href="https://docs.google.com/presentation/d/1MY-XluG_7gTa32m7nDxMl_V0XRUw1_yhohnAXXW2ziE/pub?start=false&loop=false&delayms=3000" target="_blank"><i class="fa fa-picture-o"></i></a>
-        &nbsp;
-        <i class="fa fa-flask"></i>
       </td>
     </tr>
     <tr>
