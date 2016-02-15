@@ -49,6 +49,8 @@ title: "Shell Basics"
 	More Info
 </h4>
 
+- [Bash Introduction](https://speakerdeck.com/62gerente/bash-introduction) (by Santos and Neves)
+- [Command line essentials (slides)](http://www.slideshare.net/bbbart/command-line-essentials) (by Bart Van Loon)
 - [Learn Enough Command Line to be Dangerous](http://www.learnenough.com/command-line-tutorial) by Michael Hartl. An introduction to the command line for complete beginners.
 - [The CLI Crash Course](http://cli.learncodethehardway.org/). The Command Line Crash Course, by Zed Shaw. Mini-book that teaches you Unix or Windows command line skills.
 
