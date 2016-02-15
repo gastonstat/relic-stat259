@@ -67,12 +67,3 @@ We are going to be using several tools along this course. Which means that you w
 - __pandoc__ (universal document converter)
 	- [Installing](http://pandoc.org/installing.html)
 
-------
-
-<h4>
-	<span class="fa fa-info-circle fa-lg main-list-item-icon"></span>
-	More Info
-</h4>
-
-- [Bash Introduction](https://speakerdeck.com/62gerente/bash-introduction) (by Santos and Neves)
-- [Command line essentials (slides)](http://www.slideshare.net/bbbart/command-line-essentials) (by Bart Van Loon)
