@@ -51,4 +51,4 @@ title: "Open Science Framework"
 
 - [Open Science Framework](https://osf.io/)
 - [Center for Open Science (COS)](https://cos.io/)
-- [COS Youtube channel](https://www.youtube.com/channel/UCGPlVf8FsQ23BehDLFrQa-g). Quick reference for learning and remembering the most important and commonly used Git commands.
+- [COS Youtube channel](https://www.youtube.com/channel/UCGPlVf8FsQ23BehDLFrQa-g)
