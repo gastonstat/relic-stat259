@@ -86,12 +86,12 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Feb 10</td>
-      <td><b>Strings Manipulation</b><br>
-        Manipulating Strings</td>
+      <td><b>Open Science Framework</b><br>
+        Cloud-based management for your projects</td>
       <td>
-        <i class="fa fa-folder"></i>
+        <a href="osf"><i class="fa fa-folder"></i></a>
         &nbsp;
-        <i class="fa fa-picture-o"></i>
+        <a href="https://www.youtube.com/watch?v=NqC2uagJZpw" target="_blank"><i class="fa fa-picture-o"></i></a>
         &nbsp;
      </td>
     </tr>
