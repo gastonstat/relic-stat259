@@ -104,10 +104,7 @@ Tentative calendar, Spring 2016
       <td><b>Intro to Python</b><br>
         Control flows, classes, and data formats</td>
       <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
-        &nbsp;
+        <a href="08-python-basics"><i class="fa fa-folder"></i></a>
       </td>
     </tr>
     <tr>
@@ -122,7 +119,7 @@ Tentative calendar, Spring 2016
       </td>
     </tr>
     <tr>
-      <td>Feb 22</td>
+      <td>Feb 24</td>
       <td><b>Coding Practices</b><br>
         Good coding practices and principles</td>
       <td>
@@ -133,7 +130,7 @@ Tentative calendar, Spring 2016
       </td>
     </tr>
     <tr>
-      <td>Feb 24</td>
+      <td>Feb 29</td>
       <td><b>Data Storage</b><br>
         Dealing with different sources of data</td>
       <td>
@@ -144,7 +141,7 @@ Tentative calendar, Spring 2016
       </td>
     </tr>
     <tr>
-      <td>Feb 29</td>
+      <td>Mar 02</td>
       <td><b>Tidy Data</b><br>
         Tidying-up Data Tables</td>
       <td>
@@ -155,7 +152,7 @@ Tentative calendar, Spring 2016
       </td>
     </tr>
     <tr>
-      <td>Mar 02</td>
+      <td>Mar 07</td>
       <td><b>EDA</b><br>
         Exploratory Data Analysis</td>
       <td>
@@ -166,7 +163,7 @@ Tentative calendar, Spring 2016
      </td>
     </tr>
     <tr>
-      <td>Mar 07</td>
+      <td>Mar 09</td>
       <td><b>Data Visualization</b><br>
         A picture is worth a 1000 numbers</td>
       <td>
@@ -175,17 +172,6 @@ Tentative calendar, Spring 2016
         <i class="fa fa-picture-o"></i>
         &nbsp;
       </td>
-    </tr>
-    <tr>
-      <td>Mar 09</td>
-      <td><b>Interactive Charts</b><br>
-        Getting Started with RStudio Shiny</td>
-      <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
-        &nbsp;
-     </td>
     </tr>
     <tr>
       <td>Mar 14</td>
