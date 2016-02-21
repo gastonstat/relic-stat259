@@ -9,6 +9,8 @@ We are going to work with the cyclone data set, described in
 
 `cyclone.dat` is a fixed-width delimited file, which represents a tabular data with 3 columns and 12 rows:
 
+|   |   |      |
+|---|---|------|
 | 1 | 1 |  370 |
 | 1 | 2 |  452 |
 | 1 | 3 |  273 |
@@ -25,7 +27,7 @@ We are going to work with the cyclone data set, described in
 
 ### Objectives
 
-1. Use python to calculate the total number of cyclones per season, aiming to produce a "table" like this one:
+- Use python to calculate the total number of cyclones per season, aiming to produce a "table" like this one:
 
 | Season | Cyclones | 
 |:-------|---------:|
@@ -34,10 +36,11 @@ We are going to work with the cyclone data set, described in
 | Spring |  3232    |
 | Summer |  2276    |
 
-2. Create a simple report in latex that shows the table with the total number of cyclones in Antartica each season.
+- Create a simple report in latex that shows the table with the total number of cyclones in Antartica each season.
 
 First we'll do everything in a jupyter notebook, and then we'll see how to modularize all the workflow.
 
+-----
 
 ### Steps 
 
@@ -105,7 +108,10 @@ This is a very simple report that includes a basic table.
 
 \section{Introduction}
 \noindent
-Based on the \texttt{cyclone.dat} dataset at \url{http://www.stat.ufl.edu/~winner/data/cyclone.txt}, we wrote code in python to calculate the total number of cyclones per season.
+Based on the \texttt{cyclone.dat} dataset at 
+\url{http://www.stat.ufl.edu/~winner/data/cyclone.txt}, 
+we wrote code in python to calculate 
+the total number of cyclones per season.
 
 \section{Results}
 The following table contains the total counts of cyclones for each season:
