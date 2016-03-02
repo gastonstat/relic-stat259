@@ -120,6 +120,50 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Feb 24</td>
+      <td><b>More Python</b><br>
+        Full script in a jupyter notebook</td>
+      <td>
+        <i class="fa fa-folder"></i>
+        &nbsp;
+        <i class="fa fa-picture-o"></i>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>Feb 29</td>
+      <td><b>Intro to GNU Make</b><br>
+        Controling the generation of executables</td>
+      <td>
+        <a href="10-makefile-basics"><i class="fa fa-folder"></i></a>
+        &nbsp;
+        <a href="https://www.youtube.com/watch?v=Lyp36ku7D0A" target="_blank"><i class="fa fa-youtube-play"></i></a>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>Mar 02</td>
+      <td><b>Intro to LaTeX</b><br>
+        Typesetting system for technical or scientific documents</td>
+      <td>
+        <a href="11-latex-intro"><i class="fa fa-folder"></i></a>
+        &nbsp;
+        <i class="fa fa-picture-o"></i>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>Mar 07</td>
+      <td><b>Dynamic Documents</b><br>
+        Tools for Reporting and Authoring</td>
+      <td>
+        <i class="fa fa-folder"></i>
+        &nbsp;
+        <i class="fa fa-picture-o"></i>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>Mar 09</td>
       <td><b>Coding Practices</b><br>
         Good coding practices and principles</td>
       <td>
@@ -130,7 +174,7 @@ Tentative calendar, Spring 2016
       </td>
     </tr>
     <tr>
-      <td>Feb 29</td>
+      <td>Mar 14</td>
       <td><b>Data Storage</b><br>
         Dealing with different sources of data</td>
       <td>
@@ -141,53 +185,9 @@ Tentative calendar, Spring 2016
       </td>
     </tr>
     <tr>
-      <td>Mar 02</td>
+      <td>Mar 16</td>
       <td><b>Tidy Data</b><br>
         Tidying-up Data Tables</td>
-      <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
-        &nbsp;
-      </td>
-    </tr>
-    <tr>
-      <td>Mar 07</td>
-      <td><b>EDA</b><br>
-        Exploratory Data Analysis</td>
-      <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
-        &nbsp;
-     </td>
-    </tr>
-    <tr>
-      <td>Mar 09</td>
-      <td><b>Data Visualization</b><br>
-        A picture is worth a 1000 numbers</td>
-      <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
-        &nbsp;
-      </td>
-    </tr>
-    <tr>
-      <td>Mar 14</td>
-      <td><b>Markup Languages</b><br>
-        Intro to Typesetting Systems</td>
-      <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
-        &nbsp;
-      </td>
-    </tr>
-    <tr>
-      <td>Mar 16</td>
-      <td><b>Dynamic Documents</b><br>
-        Tools for Reporting and Authoring</td>
       <td>
         <i class="fa fa-folder"></i>
         &nbsp;
@@ -220,8 +220,19 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Mar 30</td>
-      <td><b>Makefile Automation</b><br>
-        Getting Started with Makefile</td>
+      <td><b>EDA</b><br>
+        Exploratory Data Analysis</td>
+      <td>
+        <i class="fa fa-folder"></i>
+        &nbsp;
+        <i class="fa fa-picture-o"></i>
+        &nbsp;
+     </td>
+    </tr>
+    <tr>
+      <td>Apr 04</td>
+      <td><b>Data Visualization</b><br>
+        A picture is worth a 1000 numbers</td>
       <td>
         <i class="fa fa-folder"></i>
         &nbsp;
@@ -230,7 +241,7 @@ Tentative calendar, Spring 2016
       </td>
     </tr>
     <tr>
-      <td>Apr 04</td>
+      <td>Apr 06</td>
       <td><b>Testing Code</b><br>
         Testing procedures</td>
       <td>
@@ -241,7 +252,7 @@ Tentative calendar, Spring 2016
       </td>
     </tr>
     <tr>
-      <td>Apr 06</td>
+      <td>Apr 11</td>
       <td><b>Tips for Presentations</b><br>
         Good habits for creating presentations</td>
       <td>
@@ -250,12 +261,6 @@ Tentative calendar, Spring 2016
         <i class="fa fa-picture-o"></i>
         &nbsp;
      </td>
-    </tr>
-    <tr>
-      <td>Apr 11</td>
-      <td>TBD ...</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>Apr 13</td>
