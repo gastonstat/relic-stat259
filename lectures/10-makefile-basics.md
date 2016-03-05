@@ -41,3 +41,4 @@ title: "Makefile Basics"
 
 - [GNU Make Manual](http://www.gnu.org/software/make/manual/make.html)
 - [Introduction to Makefiles](https://cos.io/)
+- [Introduction to making Makefiles](http://www.jfranken.de/homepages/johannes/vortraege/make_inhalt.en.html) by Johannes Franken
