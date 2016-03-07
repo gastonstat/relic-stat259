@@ -153,10 +153,10 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Mar 07</td>
-      <td><b>Dynamic Documents</b><br>
-        Tools for Reporting and Authoring</td>
+      <td><b>Beamer Slides</b><br>
+        LaTeX document class for creating slides</td>
       <td>
-        <i class="fa fa-folder"></i>
+        <a href="12-beamer-slides"><i class="fa fa-folder"></i></a>
         &nbsp;
         <i class="fa fa-picture-o"></i>
         &nbsp;
@@ -164,8 +164,8 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Mar 09</td>
-      <td><b>Coding Practices</b><br>
-        Good coding practices and principles</td>
+      <td><b>Dynamic Documents</b><br>
+        More tools for reporting and authoring</td>
       <td>
         <i class="fa fa-folder"></i>
         &nbsp;
@@ -253,6 +253,17 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Apr 11</td>
+      <td><b>Coding Practices</b><br>
+        Good coding practices and principles</td>
+      <td>
+        <i class="fa fa-folder"></i>
+        &nbsp;
+        <i class="fa fa-picture-o"></i>
+        &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td>Apr 13</td>
       <td><b>Tips for Presentations</b><br>
         Good habits for creating presentations</td>
       <td>
@@ -261,12 +272,6 @@ Tentative calendar, Spring 2016
         <i class="fa fa-picture-o"></i>
         &nbsp;
      </td>
-    </tr>
-    <tr>
-      <td>Apr 13</td>
-      <td>TBD ...</td>
-      <td>
-      </td>
     </tr>
     <tr>
       <td>Apr 18</td>
