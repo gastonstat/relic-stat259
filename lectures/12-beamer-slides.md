@@ -39,4 +39,4 @@ title: "Beamer Slides"
 - [Introduction to LaTeX](http://www.stat.berkeley.edu/~azhu/IntroToLaTeXSlides.pdf) by Angie Zhu
 - [Overleaf's Beamer Gallery](https://www.overleaf.com/gallery/tagged/presentation)
 - [Advanced Beamer Techniques](http://www.eng.auburn.edu/~reevesj/Classes/ELEC6970-latex/Advanced_Beamer/Advanced_Beamer.pdf) by Stephen Henning
-- [The Beamer User Guide]{http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf} (i.e. the beamer manual)
+- [The Beamer User Guide](http://ctan.math.washington.edu/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf) (i.e. the beamer manual)
