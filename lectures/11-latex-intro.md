@@ -14,7 +14,6 @@ title: "Intro to LaTeX"
 
 - <a href="https://www.overleaf.com/latex/learn/free-online-introduction-to-latex-part-1.pdf" target="_blank">An Interactive Introduction to LaTeX (Part 1)</a> by <a href="http://jdlm.info/" target="_blank">John Lees-Miller</a>
 - <a href="https://www.overleaf.com/latex/learn/free-online-introduction-to-latex-part-2.pdf" target="_blank">An Interactive Introduction to LaTeX (Part 2)</a> by John Lees-Miller
-- <a href="https://www.overleaf.com/latex/learn/free-online-introduction-to-latex-part-3.pdf" target="_blank">An Interactive Introduction to LaTeX (Part 3)</a> by John Lees-Miller
 
 
 <h4>
