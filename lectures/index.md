@@ -167,9 +167,7 @@ Tentative calendar, Spring 2016
       <td><b>Dynamic Documents</b><br>
         More tools for reporting and authoring</td>
       <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
+        <a href="13-dynamic-documents"><i class="fa fa-folder"></i></a>
         &nbsp;
       </td>
     </tr>
