@@ -28,8 +28,8 @@ title: "Dynamic Documents"
 	Lab
 </h4>
 
-<a href="https://github.com/gastonstat/stat259/blob/gh-pages/tutorials/Rnw_basic" target="_blank">Rnw basic</a> (getting started with R no web files and knitr)
-
+- <a href="https://github.com/gastonstat/stat259/blob/gh-pages/tutorials/Rnw_basic" target="_blank">Rnw basic</a> (getting started with R no web files and knitr)
+- <a href="https://github.com/gastonstat/forest_fires" target="_blank">Forest Fires practice</a>
 
 ------
 

@@ -169,6 +169,8 @@ Tentative calendar, Spring 2016
       <td>
         <a href="13-dynamic-documents"><i class="fa fa-folder"></i></a>
         &nbsp;
+        <a href="https://github.com/gastonstat/forest_fires" target="_blank"><i class="fa fa-github"></i></a>
+        &nbsp;
       </td>
     </tr>
     <tr>
