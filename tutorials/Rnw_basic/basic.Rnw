@@ -1,0 +1,40 @@
+\documentclass[12pt]{article}
+
+\usepackage[margin=0.75in]{geometry}
+
+
+\title{Rnw Files}
+\author{Gaston Sanchez}
+\date{\today}
+
+
+\begin{document}
+\maketitle
+
+\noindent This is a simple example on how to use Rnw files. At one time, the phrase, You've got mail, was a welcomed, even exciting notification. Our inboxes were usually empty, so we eagerly anticipated the arrival of \dots Read More.
+
+Here's a table displayed with the R package \texttt{"xtable"}
+
+<<iris_summary, echo=FALSE, results='asis'>>=
+library(xtable)
+print(xtable(summary(iris[,1:4])))
+@
+
+Example of a code chunk:
+<<ex1>>=
+# two vectors
+x <- 1:10
+y <- x*2 + 5
+@
+
+Here's an example of inline code chunk using \texttt{\textbackslash Sexpr\{\}}: the mean value of \texttt{y} is \Sexpr{mean(y)}, the median of \texttt{y} is \Sexpr{median(y)}, and its length is \Sexpr{length(y)}
+
+
+\section{Plot}
+
+More lines
+<<plot1, fig.width=4, fig.height=4>>=
+plot(x, y)
+@
+
+\end{document}
