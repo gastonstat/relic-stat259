@@ -95,23 +95,10 @@ output: html_document
 ## What's in a name?
 ```
 
-The first thing is to include a widget that allows you to type some text (your name).
-Include a code chunk
-~~~
-```{r echo=FALSE}
-textInput("name", "Name:", value = "Donald")
-```
-~~~
-
-```
-Here is a graph of the number of people named `TO DO`.
-`TO DO`
-
-`TO DO` was more popular than ever in `TO DO`. 
-So far, `TO DO` people havebeen named `TO DO`.
-```
-
 ### Reactivity 101
+
+The first thing to do is to include a widget that allows you to type some text (your name).
+Use the __textInput__ widget inside a code chunk: `textInput("name", label = "Name:", value = "Gaston")`
 
 Your widget saves a value in R that you can call with `input$<inputId>`.
 For example, let's say you have a `textInput` widget with the following call:
@@ -122,4 +109,12 @@ The widget value changes whenever a user changes the widget.
 
 You CANNOT call a widget value with a normal R function. For instance, 
 if you try to this `nchar(input$name)` Shiny won't let you.
+
+
+### TO-DO
+
+Try to replicate the following doc
+
+![](shinydoc.png)
+
 
