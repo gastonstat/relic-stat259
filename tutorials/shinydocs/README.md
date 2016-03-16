@@ -98,7 +98,7 @@ output: html_document
 ### Reactivity 101
 
 The first thing to do is to include a widget that allows you to type some text (your name).
-Use the __textInput__ widget inside a code chunk: `textInput("name", label = "Name:", value = "Gaston")`
+Use the __textInput()__ widget inside a code chunk: `textInput("name", label = "Name:", value = "Gaston")`
 
 Your widget saves a value in R that you can call with `input$<inputId>`.
 For example, let's say you have a `textInput` widget with the following call:
@@ -111,7 +111,25 @@ You CANNOT call a widget value with a normal R function. For instance,
 if you try to this `nchar(input$name)` Shiny won't let you.
 
 
+### Reactive expressions
+
+You can use a reactive value in multiple render functions. 
+Call a reactive values, as if it were a function.
+
+| Function            | Creates       |
+| ------------------- | ----------------- |
+| `renderDataTable()` |	An interactive table |
+| `renderImage()`     |	An image (saved as a link to a source file) |
+| `renderPlot()`      |	A plot            |
+| `renderPrint()`     |	A code block of printed output |
+| `renderTable()`     |	A table            |
+| `renderText()`      |	A character string |
+
+
 ### TO-DO
+
+Use `renderPlor()` to display the plot
+Use `renderText()` to display text
 
 Try to replicate the following doc
 
