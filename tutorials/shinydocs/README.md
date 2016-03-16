@@ -120,7 +120,7 @@ You can use a reactive value in multiple render functions.
 Call a reactive values, as if it were a function. For instance, to be able to display your name, 
 you need to pass `input$name` to `renderText()` like so:
 ```R
-My name is `r renderText(input$name)` and it is `r renderText(nchar(input$name)) characters long` 
+My name is `r renderText(input$name)` and it is `r renderText(nchar(input$name))` characters long
 
 ``` 
 
