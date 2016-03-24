@@ -210,7 +210,7 @@ Tentative calendar, Spring 2016
     <tr>
       <td>Mar 28</td>
       <td><b>Guest Lecture</b><br>
-        TBA</td>
+        Dav Clark: Reproducible Workflows and Report Generation</td>
       <td>
         <i class="fa fa-folder"></i>
         &nbsp;
