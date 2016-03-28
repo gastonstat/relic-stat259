@@ -212,9 +212,7 @@ Tentative calendar, Spring 2016
       <td><b>Guest Lecture</b><br>
         Dav Clark: Reproducible Workflows and Report Generation</td>
       <td>
-        <i class="fa fa-folder"></i>
-        &nbsp;
-        <i class="fa fa-picture-o"></i>
+        <a href="https://github.com/glass-bead-labs/taichi-adhd-public" target="_blank"><i class="fa fa-folder"></i></a>
         &nbsp;
       </td>
     </tr>
