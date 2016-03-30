@@ -12,11 +12,9 @@ shinyServer(function(input, output) {
       theme_bw()
   })
   
-  output$total <- isolate(sum(names()$n))
-
-#   output$total <- renderText({
-#     sum(names()$n)
-#   })
+  output$total <- renderText({
+    sum(names()$n)
+  })
   
   output$peak <- renderText({
     names()$year[which.max(names()$n)]
