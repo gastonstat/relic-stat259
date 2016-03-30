@@ -31,7 +31,7 @@ sum(myname$n)
 Now let's make a plot to see the trend of your name
 ```R
 library(ggplot2)
-ggplot(data = myname, aes(x = year, y = n, color = sex) +
+ggplot(data = myname, aes(x = year, y = n, color = sex)) +
   geom_line() + 
   theme_bw()
 ```
