@@ -218,12 +218,12 @@ Tentative calendar, Spring 2016
     </tr>
     <tr>
       <td>Mar 30</td>
-      <td><b>EDA</b><br>
-        Exploratory Data Analysis</td>
+      <td><b>Interactive Plots</b><br>
+        Basics of Shiny Apps</td>
       <td>
         <i class="fa fa-folder"></i>
         &nbsp;
-        <i class="fa fa-picture-o"></i>
+        <a href="https://github.com/gastonstat/stat259/tree/gh-pages/tutorials/shinyapp" target="_blank"><i class="fa fa-github"></i></a>
         &nbsp;
      </td>
     </tr>
