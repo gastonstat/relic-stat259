@@ -189,9 +189,9 @@ Tentative calendar, Spring 2016
       <td><b>Tidy Data</b><br>
         Tidying-up Data Tables</td>
       <td>
-        <i class="fa fa-folder"></i>
+        <a href="14-tidy-data"><i class="fa fa-folder"></i></a>
         &nbsp;
-        <i class="fa fa-picture-o"></i>
+        <a href="https://vimeo.com/33727555" target="_blank"><i class="fa fa-youtube-play"></i></a>
         &nbsp;
       </td>
     </tr>
