@@ -40,8 +40,34 @@ At the completion of this course, students will:
 - understand the cycle of a data analysis project
 - understand the computational and statistical issues involved with Reproducibility
 
+### Topics
 
-## Grading
+- <i class="fa fa-folder"></i> Shell (Bash) & Command Line Interface (CLI)
+- <i class="fa fa-git"></i> Version Control with Git 
+- <i class="fa fa-github"></i> Project Hosting with GitHub
+- <i class="fa fa-gears"></i> Automation with GNU Make
+- <i class="fa fa-terminal"></i> Shell scripts
+- <i class="fa fa-spinner"></i> Running scripts non-interactively
+- <i class="fa fa-refresh"></i> Data Analysis Project workflow
+- <i class="fa fa-sitemap"></i> Project Organization 
+- <i class="fa fa-hashtag"></i> Markdown
+- <i class="fa fa-font"></i> LaTex and Beamer
+- <i class="fa fa-arrows-alt"></i> Pandoc (document converter)
+- <i class="fa fa-pencil-square-o"></i> Writing reports
+- <i class="fa fa-file-code-o"></i> Dynamic documents
+- <i class="fa fa-puzzle-piece"></i> R package "knitr"
+- <i class="fa fa-recycle"></i> R package "rmarkdown"
+- <i class="fa fa-sliders"></i> R package "shiny"
+- <i class="fa fa-bar-chart"></i> Data Visualization
+- <i class="fa fa-code"></i> Coding practices
+- <i class="fa fa-unlock"></i> Open Science
+- <i class="fa fa-picture-o"></i> Presentation skills
+- <i class="fa fa-creative-commons"></i> Licenses
+- <i class="fa fa-check-square"></i> Continuous Integration with Travis_CI?
+- <i class="fa fa-database"></i> Managing data archives?
+
+
+### Grading
 
 - 20% reading and participation
 - 20% lab
